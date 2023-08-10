@@ -1,0 +1,183 @@
+/*universal selector*/
+* {
+  /* border: 18px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+.main-header {
+  background-color: #f8f7f7fe;
+  /* padding-top:20px;
+  padding-right:40px; */
+  padding: 20px 40px;
+  margin-bottom: 50px;
+}
+
+nav {
+  font-size: 18px;
+  padding-left: 14px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+aside {
+  background-color: #f0f0f0c6;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 40px 0;
+  width: 500px;
+}
+
+h1 {
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+/* .text {
+  margin-bottom: 40px;
+} */
+
+/*footer p {
+  font-size: 16px;
+  font-family: italic;
+}*/
+
+#author {
+  font-size: 18px;
+  font-family: italic;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*ul {
+  list-style: none;
+}*/
+
+.related {
+  list-style: none;
+}
+
+/*body {
+  background-color: blue;
+}*/
+
+/*.first-li {
+  font-weight: bold;
+}*/
+
+li:first-child {
+  font-weight: bold;
+}
+
+/*li:nth-child(even) {
+  color: red;
+}*/
+
+/*Misconception:this won't work because article first child is header not p
+article p:first-child {
+  color: red;
+}*/
+
+/*STYLING LINKS*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+a:visited {
+  /* color: #777;*/
+  color: #1098ad;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/*LVHA*/
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+/*Resolving Conflicts*/
+/*#copyright {
+  color: green;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: red;
+}*/
+
+/*nav p,
+nav a:link {
+  font-size: 18px;
+}*/
